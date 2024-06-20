@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Contenido-inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Millenium-Corp {
+  display: flex;
+}
+
+.Millenium-Corp img {
+  margin-left: 15px;
+  
+}
+
+nav.responsive {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #000000;
+  padding: 18px 0px;
+}
+
+nav.responsive ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav.responsive ul li {
+  margin: 0 15px ;
+}
+
+nav.responsive ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 130%;
+  margin-right: 10px;
+}
+nav.responsive ul li a i{
+  margin-right: 15px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 94px;            /*Lo aleja desde arriba*/
+  right: 10%;
+}
+
+.social-media li {
+  margin-left: 50px;      /*separacion en px o % de un cuadro a otro */
+
+}
+
+.social-media li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 200%;
+}
+
+.imagen1 {
+  margin-top: 20px;
+  max-width: 50%;
+  height: auto;
+}
+
+.info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Millenium Corp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+  <div class="Contenido-inicio">
+    <div class="Millenium-Corp">
+      <img src="assets/imagenes/logo1.png" alt="logo1">
+
+    </div>
+    <nav id="nav" class="responsive">
+      <ul>
+        <li>
+          <a href="/inicio" onclick="seleccionar()">
+            <i class="fa-solid fa-solid"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li>
+          <a href="/test_velocidad" onclick="seleccionar()">
+            <i class="fa-solid fa-heart"></i>
+            <span>Test de Velociad</span>
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/inicio']" fragment="empresa" onclick="seleccionar()">
+            <i class="fa-solid fa-house"></i>
+            <span>Empresa</span>
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/inicio']" fragment="planes" onclick="seleccionar()">
+            <i class="fa-solid fa-comments"></i>
+            <span>Nuestos planes</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="social-media">
+      <li>
+        <a href="https://www.instagram.com/milleniumcomputers/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.facebook.com/milleniumcorpec" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/5930982342884" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    </ul>
+
+
+  </div>
+</body>
+
+</html>
